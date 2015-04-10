@@ -1,0 +1,5 @@
+- @posts.each do |post|
+  %h2= link_to post.title, post_path(post)
+
+
+= link_to "Add new artwork", new_post_path

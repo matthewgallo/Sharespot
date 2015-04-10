@@ -1,10 +1,20 @@
 source 'https://rubygems.org'
 
+gem 'quiet_assets', group: :development
+gem 'haml-rails'
+gem 'erb2haml'
+gem 'better_errors'
+gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'simple_form', '~> 3.0.2'
+gem 'devise', '~> 3.4.0'
+gem 'paperclip', '~> 4.2.0'
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use mysql2 as the database for Active Record
+gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
